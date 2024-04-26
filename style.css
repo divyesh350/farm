@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(dan-meyers-0AgtPoAARtE-unsplash.jpg);
+    background-size: cover;
+}
+.semi-container{
+    height: 65vh;
+    width: 55vw;
+    
+    background-color:black;
+   
+}
+.box-1{
+    height: 50%;
+    width: 100%;
+    background-color: greenyellow;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-internet{
+    width: 15px;
+    margin-right: 20px;
+}
+li ,a {
+    text-decoration: none;
+    list-style: none;
+    color:  black;
+    font-size: 15px;
+    font-weight: 400;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+nav h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.nav-icon{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.nav-text{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+
+}
+.nav-text p{
+    font-size: 40px;
+    font-weight: 600;
+}
+.box-2{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.box-2-content , .box-2-content1{
+    height: 100%;
+    width: 50%;
+    
+   
+}
+.box-2-content1 {
+    background-image: url(carnaby-gilany-82KWr7KHwDg-unsplash.jpg);
+    background-size: cover;
+}
+.box-2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+}
+.box-2-content .text1{
+    display: inline;
+}
+.box-2-content .text3 p{
+   background-color: greenyellow;
+    text-decoration: none;
+    width: 130px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
